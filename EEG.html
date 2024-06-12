@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>EEG Data Input</title>
+  <!-- Add your CSS links or stylesheets here -->
+</head>
+<body>
+
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <!-- Add more navigation links as needed -->
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="form-section">
+      <h1>EEG Data Input</h1>
+      <form action="/predict" method="post">
+        
+        <label for="input_attention">Attention:</label>
+        <input type="text" id="input_attention" name="attention" placeholder="Enter attention value" required>
+
+        <label for="input_meditation">Meditation:</label>
+        <input type="text" id="input_meditation" name="meditation" placeholder="Enter meditation value" required>
+
+        <label for="input_delta">Delta:</label>
+        <input type="text" id="input_delta" name="delta" placeholder="Enter delta value" required>
+
+        <label for="input_theta">Theta:</label>
+        <input type="text" id="input_theta" name="theta" placeholder="Enter theta value" required>
+
+        <label for="input_lowAlpha">Low Alpha:</label>
+        <input type="text" id="input_lowAlpha" name="lowAlpha" placeholder="Enter lowAlpha value" required>
+
+        <label for="input_highAlpha">High Alpha:</label>
+        <input type="text" id="input_highAlpha" name="highAlpha" placeholder="Enter highAlpha value" required>
+
+        <label for="input_lowBeta">Low Beta:</label>
+        <input type="text" id="input_lowBeta" name="lowBeta" placeholder="Enter lowBeta value" required>
+
+        <label for="input_highBeta">High Beta:</label>
+        <input type="text" id="input_highBeta" name="highBeta" placeholder="Enter highBeta value" required>
+
+        <label for="input_lowGamma">Low Gamma:</label>
+        <input type="text" id="input_lowGamma" name="lowGamma" placeholder="Enter lowGamma value" required>
+
+        <label for="input_highGamma">High Gamma:</label>
+        <input type="text" id="input_highGamma" name="highGamma" placeholder="Enter highGamma value" required>
+
+        <button type="submit">Predict</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Your Company. All rights reserved.</p>
+  </footer>
+
+  <!-- Add your JavaScript scripts or links here -->
+
+</body>
+</html>
